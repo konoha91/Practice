@@ -15,13 +15,15 @@
 		B27CF6A718E90EC300CD551E /* HAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CF6A618E90EC300CD551E /* HAppDelegate.m */; };
 		B27CF6AA18E90EC300CD551E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27CF6A818E90EC300CD551E /* Main_iPhone.storyboard */; };
 		B27CF6AD18E90EC300CD551E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27CF6AB18E90EC300CD551E /* Main_iPad.storyboard */; };
-		B27CF6B018E90EC300CD551E /* HViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CF6AF18E90EC300CD551E /* HViewController.m */; };
 		B27CF6B218E90EC300CD551E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27CF6B118E90EC300CD551E /* Images.xcassets */; };
 		B27CF6B918E90EC300CD551E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CF6B818E90EC300CD551E /* XCTest.framework */; };
 		B27CF6BA18E90EC300CD551E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CF69618E90EC300CD551E /* Foundation.framework */; };
 		B27CF6BB18E90EC300CD551E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27CF69A18E90EC300CD551E /* UIKit.framework */; };
 		B27CF6C318E90EC400CD551E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B27CF6C118E90EC400CD551E /* InfoPlist.strings */; };
 		B27CF6C518E90EC400CD551E /* HelloiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CF6C418E90EC400CD551E /* HelloiOSTests.m */; };
+		B27CF6D618E9135500CD551E /* HViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CF6D518E9135500CD551E /* HViewController.m */; };
+		B27CF6DA18E9138D00CD551E /* HLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CF6D918E9138D00CD551E /* HLoginViewController.m */; };
+		B27CF6DD18E9158000CD551E /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B27CF6DC18E9158000CD551E /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +49,17 @@
 		B27CF6A618E90EC300CD551E /* HAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAppDelegate.m; sourceTree = "<group>"; };
 		B27CF6A918E90EC300CD551E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		B27CF6AC18E90EC300CD551E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		B27CF6AE18E90EC300CD551E /* HViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HViewController.h; sourceTree = "<group>"; };
-		B27CF6AF18E90EC300CD551E /* HViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HViewController.m; sourceTree = "<group>"; };
 		B27CF6B118E90EC300CD551E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B27CF6B718E90EC300CD551E /* HelloiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27CF6B818E90EC300CD551E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B27CF6C018E90EC400CD551E /* HelloiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloiOSTests-Info.plist"; sourceTree = "<group>"; };
 		B27CF6C218E90EC400CD551E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B27CF6C418E90EC400CD551E /* HelloiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloiOSTests.m; sourceTree = "<group>"; };
+		B27CF6D418E9135500CD551E /* HViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HViewController.h; sourceTree = "<group>"; };
+		B27CF6D518E9135500CD551E /* HViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HViewController.m; sourceTree = "<group>"; };
+		B27CF6D818E9138D00CD551E /* HLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLoginViewController.h; sourceTree = "<group>"; };
+		B27CF6D918E9138D00CD551E /* HLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLoginViewController.m; sourceTree = "<group>"; };
+		B27CF6DC18E9158000CD551E /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +119,11 @@
 		B27CF69C18E90EC300CD551E /* HelloiOS */ = {
 			isa = PBXGroup;
 			children = (
+				B27CF6DB18E9158000CD551E /* Resource */,
+				B27CF6CE18E9132C00CD551E /* View */,
+				B27CF6CF18E9132C00CD551E /* Viewcontroller */,
 				B27CF6A518E90EC300CD551E /* HAppDelegate.h */,
 				B27CF6A618E90EC300CD551E /* HAppDelegate.m */,
-				B27CF6A818E90EC300CD551E /* Main_iPhone.storyboard */,
-				B27CF6AB18E90EC300CD551E /* Main_iPad.storyboard */,
-				B27CF6AE18E90EC300CD551E /* HViewController.h */,
-				B27CF6AF18E90EC300CD551E /* HViewController.m */,
 				B27CF6B118E90EC300CD551E /* Images.xcassets */,
 				B27CF69D18E90EC300CD551E /* Supporting Files */,
 			);
@@ -153,6 +157,50 @@
 				B27CF6C118E90EC400CD551E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B27CF6CE18E9132C00CD551E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B27CF6A818E90EC300CD551E /* Main_iPhone.storyboard */,
+				B27CF6AB18E90EC300CD551E /* Main_iPad.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B27CF6CF18E9132C00CD551E /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				B27CF6D718E9137400CD551E /* Login */,
+				B27CF6D318E9135500CD551E /* Welcome */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		B27CF6D318E9135500CD551E /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				B27CF6D418E9135500CD551E /* HViewController.h */,
+				B27CF6D518E9135500CD551E /* HViewController.m */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		B27CF6D718E9137400CD551E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B27CF6D818E9138D00CD551E /* HLoginViewController.h */,
+				B27CF6D918E9138D00CD551E /* HLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B27CF6DB18E9158000CD551E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B27CF6DC18E9158000CD551E /* image.jpg */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +284,7 @@
 				B27CF6B218E90EC300CD551E /* Images.xcassets in Resources */,
 				B27CF6AA18E90EC300CD551E /* Main_iPhone.storyboard in Resources */,
 				B27CF6A118E90EC300CD551E /* InfoPlist.strings in Resources */,
+				B27CF6DD18E9158000CD551E /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B27CF6B018E90EC300CD551E /* HViewController.m in Sources */,
 				B27CF6A318E90EC300CD551E /* main.m in Sources */,
+				B27CF6DA18E9138D00CD551E /* HLoginViewController.m in Sources */,
 				B27CF6A718E90EC300CD551E /* HAppDelegate.m in Sources */,
+				B27CF6D618E9135500CD551E /* HViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +343,7 @@
 				B27CF6A918E90EC300CD551E /* Base */,
 			);
 			name = Main_iPhone.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B27CF6AB18E90EC300CD551E /* Main_iPad.storyboard */ = {
@@ -301,6 +352,7 @@
 				B27CF6AC18E90EC300CD551E /* Base */,
 			);
 			name = Main_iPad.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B27CF6C118E90EC400CD551E /* InfoPlist.strings */ = {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7129A41B-8631-4C1A-9200-53CE0265D52D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Practice1v1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>65D027DC-30E7-44BE-BACA-EF0A26F3A94A</key>
+		<string>https://github.com/konoha91/Practice.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Practice1v1/Practice1v1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>65D027DC-30E7-44BE-BACA-EF0A26F3A94A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/konoha91/Practice.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>65D027DC-30E7-44BE-BACA-EF0A26F3A94A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65D027DC-30E7-44BE-BACA-EF0A26F3A94A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Practic</string>
+		</dict>
+	</array>
+</dict>
+</plist>
